@@ -48,6 +48,11 @@ CUDA_VISIBLE_DEVICES="1"  nohup python seco_sam.py --id-list-path  ./splits/city
 ```
 Afterward, you can find the aggregated pseudo-labels in `root_path/${exp_name}_vit_{B/H}`.
 
+## :card_index_dividers: Data
+
+We are currently organizing the open-set data synthesized by the diffusion model used in OSDA, and plan to release it publicly.
+
+
 
 ## :speech_balloon: Semantic Connectivity Correction
 After PSA, the noise is also amplified, and then you can use SCC to denoise the connected regions. 
