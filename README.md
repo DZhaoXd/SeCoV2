@@ -14,6 +14,10 @@ SeCoV2 also broadens the applicability of SeCo by extending evaluation to more c
 
 ![](./images/Fig4_extend.png)
 
+## :card_index_dividers: Data
+
+We are currently organizing the open-set data synthesized by the diffusion model used in OSDA, and plan to release it publicly.
+
 
 
 ## :speech_balloon: Requirements
@@ -47,10 +51,6 @@ ${exp_name}="HRDA_seco"
 CUDA_VISIBLE_DEVICES="1"  nohup python seco_sam.py --id-list-path  ./splits/cityscapes/${exp_name}/all.txt --class-num ${class_name}  > logs/${exp_name} 2>&1 &
 ```
 Afterward, you can find the aggregated pseudo-labels in `root_path/${exp_name}_vit_{B/H}`.
-
-## :card_index_dividers: Data
-
-We are currently organizing the open-set data synthesized by the diffusion model used in OSDA, and plan to release it publicly.
 
 
 
