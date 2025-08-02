@@ -5,14 +5,14 @@ SeCoV2: Semantic-Connectivity-driven-Pseudo-Labeling-for-Robust-Cross-Domain-Sem
 This is an extended journal version of the previous Pseudo-label denoising work SeCo, named SeCoV2, which introduces an uncertainty-aware correction module that constructs a connectivity graph and enforces relational consistency for robust refinement in ambiguous regions. 
 
 ## :speech_balloon: Pipeline
-![](./images/Fig3_Pipeline.jpg)
+![](./images/Fig3_Pipeline.png)
 
 SeCoV2 also broadens the applicability of SeCo by extending evaluation to more challenging scenarios:
 
-![](./images/Fig2_Motivation.jpg)
+![](./images/Fig2_Motivation.png)
 
 
-![](./images/Fig4_extend.jpg)
+![](./images/Fig4_extend.png)
 
 
 
