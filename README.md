@@ -1,4 +1,6 @@
-# SeCoV2-Semantic-Connectivity-driven-Pseudo-Labeling-for-Robust-Cross-Domain-Semantic-Segmentation (TPAMI-2025)
+# SeCoV2 (TPAMI-2025)
+
+SeCoV2: Semantic-Connectivity-driven-Pseudo-Labeling-for-Robust-Cross-Domain-Semantic-Segmentation 
 
 This is an extended journal version of the previous Pseudo-label denoising work SeCo, named SeCoV2, which introduces an uncertainty-aware correction module that constructs a connectivity graph and enforces relational consistency for robust refinement in ambiguous regions. SeCoV2 also broadens the applicability of SeCo by extending evaluation to more challenging scenarios.
 
