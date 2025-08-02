@@ -51,7 +51,7 @@ Afterward, you can find the aggregated pseudo-labels in `root_path/${exp_name}_v
 
 ## :speech_balloon: Semantic Connectivity Correction
 After PSA, the noise is also amplified, and then you can use SCC to denoise the connected regions. 
-Refer to ([SCC](https://github.com/DZhaoXd/SeCoV2/tree/main/SCCV2) ) part for specific instructions.
+Refer to ([SCC](https://github.com/DZhaoXd/SeCoV2/tree/main/SCC_V2) ) part for specific instructions.
 
 ## :speech_balloon: Embedded SeCo into UDA semantic segmentation
 This involves partitioning the unlabeled data into two subsets (one as a labeled subset and the other as an unlabeled subset) and employing a semi-supervised method ([Unimatch](https://github.com/LiheYoung/UniMatch) ) for further adaptation, as mentioned in the paper.
