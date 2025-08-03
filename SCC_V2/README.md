@@ -1,6 +1,4 @@
-# SeCo Part 2: Semantic Connectivity Correction
-
-The code structure of SeCo is inspired by [BETA](https://github.com/xyupeng/BETA), but we did not use BETA for training optimization. We only used the "src" (source code) for training.
+# Semantic Connectivity Correction
 
 ## Data Structure
 
