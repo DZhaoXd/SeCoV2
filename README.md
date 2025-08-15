@@ -54,7 +54,7 @@ Afterward, you can find the aggregated pseudo-labels and its records in `root_pa
 
 ## :hammer_and_wrench: Semantic Connectivity Correction
 After PSA, the noise is also amplified, and then you can use SCC to denoise the connected regions. 
-Refer to ([SCC](https://github.com/DZhaoXd/SeCoV2/tree/main/SCC_V1) ) or ([SCC](https://github.com/DZhaoXd/SeCoV2/tree/main/SCC_V2) ) part for specific instructions.
+Refer to ([SCC_v1](https://github.com/DZhaoXd/SeCoV2/tree/main/SCC_V1) ) or ([SCC_v2](https://github.com/DZhaoXd/SeCoV2/tree/main/SCC_V2) ) part for specific instructions.
 
 
 ## :speech_balloon: License
