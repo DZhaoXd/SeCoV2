@@ -1,5 +1,0 @@
-scikit-learn
-torchnet
-addict
-yapf
-tensorboard
