@@ -48,18 +48,13 @@ list (XXX.txt) records the image names (XXX.png) and their corresponding pixel-l
 Then, run the PSA as follows:
 ```
 ${exp_name}="HRDA_seco"
-CUDA_VISIBLE_DEVICES="1"  nohup python seco_sam.py --id-list-path  ./splits/cityscapes/${exp_name}/all.txt --class-num ${class_name}  > logs/${exp_name} 2>&1 &
+CUDA_VISIBLE_DEVICES="1"  nohup python seco_psa_v2.py --id-list-path  ./splits/cityscapes/${exp_name}/all.txt --class-num ${class_name}  > logs/${exp_name} 2>&1 &
 ```
-Afterward, you can find the aggregated pseudo-labels in `root_path/${exp_name}_vit_{B/H}`.
-
-
+Afterward, you can find the aggregated pseudo-labels and its records in `root_path/${exp_name}_vit_{B/H}`.
 
 ## :hammer_and_wrench: Semantic Connectivity Correction
 After PSA, the noise is also amplified, and then you can use SCC to denoise the connected regions. 
-Refer to ([SCC](https://github.com/DZhaoXd/SeCoV2/tree/main/SCC_V2) ) part for specific instructions.
-
-## :hammer_and_wrench: Embedded SeCo into UDA semantic segmentation
-This involves partitioning the unlabeled data into two subsets (one as a labeled subset and the other as an unlabeled subset) and employing a semi-supervised method ([Unimatch](https://github.com/LiheYoung/UniMatch) ) for further adaptation, as mentioned in the paper.
+Refer to ([SCC](https://github.com/DZhaoXd/SeCoV2/tree/main/SCC_V1) ) or ([SCC](https://github.com/DZhaoXd/SeCoV2/tree/main/SCC_V2) ) part for specific instructions.
 
 
 ## :speech_balloon: License
